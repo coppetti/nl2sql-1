@@ -1,5 +1,5 @@
 # Natural Language Database Queries
-This repository explores translation of natural language questions to SQL code to get data from relational databases. The base model and algorithm was inspired and based upon the [Coarse2Fine](https://github.com/donglixp/coarse2fine) repo. 
+This repository explores translation of natural language questions to Cypher code to get data from relational databases. The base model and algorithm was inspired and based upon the [Coarse2Fine](https://github.com/donglixp/coarse2fine) repo. 
 
 This repo provides: 
 - inference files for running the [Coarse2Fine](https://github.com/donglixp/coarse2fine) model with **new input questions** over tables from [WikiSQL](https://github.com/salesforce/WikiSQL),
