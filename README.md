@@ -39,8 +39,8 @@ python run_model.py -config_path "config/model_config.json" -question "what was 
 ```
 Result:
 ```
-SQL code: SELECT  `Result` FROM table WHERE `Opponent` = New York Jets
-Execution result: w 20-13
+Cypher code: Select9 (t:Team)-[:Played]->(m:Match)<-[r:Played]-(:Team{name:''New York Jets'}) return  r.status,m.result
+Execution result:  w 20-13
 ```
 
 ## Use execution guidance for evaluating the model over test set
