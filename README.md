@@ -39,7 +39,7 @@ python run_model.py -config_path "config/model_config.json" -question "what was 
 ```
 Result:
 ```
-Cypher code: Select9 (t:Team)-[:Played]->(m:Match)<-[r:Played]-(:Team{name:''New York Jets'}) return  r.status,m.result
+Cypher code: MATCH (t:Team)-[:Played]->(m:Match)<-[r:Played]-(:Team{name:''New York Jets'}) return  r.status,m.result
 Execution result:  w 20-13
 ```
 
